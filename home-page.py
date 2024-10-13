@@ -15,7 +15,7 @@ import logistic
 from outliers import removeOutliers
 import svm
 
-st.header('ECS-171 Project - Classify Credit Score', divider='blue')
+st.header('Machine Learning Project - Classify Credit Score', divider='blue')
 
 logistic = joblib.load("models/logistic_no_outliers")
 svmLinear = joblib.load("models/svc_linear_no_outliers")
