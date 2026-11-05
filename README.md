@@ -2,7 +2,7 @@
 
 An interactive machine learning app that predicts a credit score band (**Poor**, **Standard** or **Good**) from a financial profile. It explains which inputs drive the prediction and finds the smallest change that would improve it.
 
-**[▶ Live demo](#deploying)** · Python · scikit-learn · Streamlit
+**[▶ Live demo](https://credit-score-project-jphbcd7a8zune8hfdjizno.streamlit.app)** · Python · scikit-learn · Streamlit
 
 ## Features
 
