@@ -1,0 +1,56 @@
+{
+  "rows": 100000,
+  "customers": 12500,
+  "test_rows": 20000,
+  "class_share": {
+    "Poor": 0.29,
+    "Standard": 0.532,
+    "Good": 0.178
+  },
+  "results": [
+    {
+      "model": "Baseline (always 'Standard')",
+      "accuracy": 0.529,
+      "macro_f1": 0.2307
+    },
+    {
+      "model": "Logistic regression",
+      "accuracy": 0.6223,
+      "macro_f1": 0.5805
+    },
+    {
+      "model": "Gradient boosting (unconstrained)",
+      "accuracy": 0.6738,
+      "macro_f1": 0.6475
+    },
+    {
+      "model": "Ordinal gradient boosting (monotonic) \u2605",
+      "accuracy": 0.662,
+      "macro_f1": 0.637
+    }
+  ],
+  "confusion_matrix": {
+    "labels": [
+      "Poor",
+      "Standard",
+      "Good"
+    ],
+    "matrix": [
+      [
+        4138,
+        1380,
+        208
+      ],
+      [
+        2339,
+        7276,
+        965
+      ],
+      [
+        91,
+        1778,
+        1825
+      ]
+    ]
+  }
+}
